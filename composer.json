@@ -1,0 +1,19 @@
+{
+    "name": "htmllc/plugin-cmb2",
+    "repositories": [{
+        "type": "composer",
+        "url": "http://packages/"
+    }],
+    "provide": {
+        "htmllc/plugin-cmb2": "1.0.6"
+    },
+    "version": "1.0.6",
+    "description": "plugin-cmb2",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "cmb2"
+    }
+}
